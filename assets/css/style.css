@@ -8,11 +8,28 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-body {
-  font-family: "Open Sans", sans-serif;
-  color: #444444;
+
+
+.right-line {
+  border-right: 5px rgb(6, 23, 213) solid;
+  height:2em
 }
 
+.top-line {
+  border-top: 5px rgb(6, 23, 213) solid;
+}
+
+.halved {
+  width: 50%;
+  float:left;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #000000;
+}
+ul {
+  list-style-type: none;
+}
 a {
   color: #3498db;
   text-decoration: none;
